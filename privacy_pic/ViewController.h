@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
+- (IBAction)touchImageButton:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *originalImage;
+@property (weak, nonatomic) IBOutlet UIImageView *stampImage;
 @end

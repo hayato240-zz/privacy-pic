@@ -148,7 +148,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="確認画面" id="KgY-rR-nwz"/>
                     <connections>
-                        <outlet property="resultImage" destination="cKY-9V-foU" id="vxb-Q7-wHM"/>
+                        <outlet property="resultImage" destination="cKY-9V-foU" id="a1z-2s-18i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k7Y-Jp-eTu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -171,6 +171,8 @@
         <class className="resultViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/resultViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="dueDate" candidateClass="UIImage"/>
+                <relationship kind="outlet" name="editImage" candidateClass="UIImage"/>
                 <relationship kind="outlet" name="resultImage" candidateClass="UIImageView"/>
             </relationships>
         </class>
