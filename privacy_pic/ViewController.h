@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
 - (IBAction)touchImageButton:(id)sender;
-@property (weak, nonatomic) IBOutlet UIImageView *originalImage;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentBtn;
+@property (strong, nonatomic) IBOutlet UIImageView *originalImage;
 @property (weak, nonatomic) IBOutlet UIImageView *stampImage;
 @end
