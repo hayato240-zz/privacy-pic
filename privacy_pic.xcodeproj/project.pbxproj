@@ -20,6 +20,9 @@
 		090DD7E8174201A300D86EEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090DD7E7174201A300D86EEB /* ViewController.m */; };
 		090DD7EF1742033F00D86EEB /* ruby.png in Resources */ = {isa = PBXBuildFile; fileRef = 090DD7EE1742033F00D86EEB /* ruby.png */; };
 		09629BC8174223ED00631FC5 /* resultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09629BC7174223ED00631FC5 /* resultViewController.m */; };
+		09F55DCD17430A6C003B09E1 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F55DCC17430A6C003B09E1 /* CoreImage.framework */; };
+		09F55DCF17431DC4003B09E1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F55DCE17431DC4003B09E1 /* Social.framework */; };
+		09F55DD1174321CC003B09E1 /* python.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F55DD0174321CC003B09E1 /* python.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		090DD7EE1742033F00D86EEB /* ruby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruby.png; sourceTree = "<group>"; };
 		09629BC6174223ED00631FC5 /* resultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultViewController.h; sourceTree = "<group>"; };
 		09629BC7174223ED00631FC5 /* resultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resultViewController.m; sourceTree = "<group>"; };
+		09F55DCC17430A6C003B09E1 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		09F55DCE17431DC4003B09E1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		09F55DD0174321CC003B09E1 /* python.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = python.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F55DCF17431DC4003B09E1 /* Social.framework in Frameworks */,
+				09F55DCD17430A6C003B09E1 /* CoreImage.framework in Frameworks */,
 				090DD7CC174201A300D86EEB /* UIKit.framework in Frameworks */,
 				090DD7CE174201A300D86EEB /* Foundation.framework in Frameworks */,
 				090DD7D0174201A300D86EEB /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +69,8 @@
 		090DD7BF174201A300D86EEB = {
 			isa = PBXGroup;
 			children = (
+				09F55DCE17431DC4003B09E1 /* Social.framework */,
+				09F55DCC17430A6C003B09E1 /* CoreImage.framework */,
 				090DD7D1174201A300D86EEB /* privacy_pic */,
 				090DD7CA174201A300D86EEB /* Frameworks */,
 				090DD7C9174201A300D86EEB /* Products */,
@@ -102,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				090DD7EE1742033F00D86EEB /* ruby.png */,
+				09F55DD0174321CC003B09E1 /* python.png */,
 				090DD7D3174201A300D86EEB /* privacy_pic-Info.plist */,
 				090DD7D4174201A300D86EEB /* InfoPlist.strings */,
 				090DD7D7174201A300D86EEB /* main.m */,
@@ -172,6 +183,7 @@
 				090DD7E2174201A300D86EEB /* Default-568h@2x.png in Resources */,
 				090DD7E5174201A300D86EEB /* MainStoryboard.storyboard in Resources */,
 				090DD7EF1742033F00D86EEB /* ruby.png in Resources */,
+				09F55DD1174321CC003B09E1 /* python.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
